@@ -1,11 +1,10 @@
 SIMULATION AND IMPLEMENTATION OF MULTIPLIER
-**AIM: **
- To simulate and synthesis multiplier using Xilinx ISE.
+**AIM:**
+ To simulate and synthesis multiplier using Vivado 2023.12.
 
 **APPARATUS REQUIRED:**
-Xilinx 14.7
-Spartan6 FPGA
-  
+Vivado 2023.12.
+
 **PROCEDURE:**
 STEP:1  Start  the Xilinx navigator, Select and Name the New project.
 STEP:2  Select the device family, device, package and speed.       
@@ -19,14 +18,14 @@ STEP:9  In the Design Object List Window, enter the pin location for each pin in
 STEP:10 Double click on the Implement Design and double click on the Generate Programming File to create a bitstream of the design.(.v) file is converted into .bit file here.
 STEP:11  On the board, by giving required input, the LEDs starts to glow light, indicating the output.
 
-**Logic Diagram**
-2 bit Multiplier
+**Logic Diagram:**
+
+2 BIT MULTIPLIER
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/7713750f-65e6-41c0-8082-5005eac4031c)
 
 VERILOG CODE
 ```
-2 bit multiplier
 module ha(a,b,sum,carry);
 input a,b;
 output sum,carry;
@@ -51,7 +50,7 @@ OUTPUT WAVEFORM
 
 ![2 bit multiplier](https://github.com/Thirugnanaselvan/VLSI-LAB-EXP-3/assets/160720772/98c7c503-4ef9-48f5-b6df-c96c25ff727a)
 
-**4 Bit Multiplier**
+4 BIT MULTIPLIER
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/d95215dd-8cf1-4e08-93cc-96adfdd7fbdc)
 
@@ -119,8 +118,8 @@ OUTPUT WAVEFORM
 ![WhatsApp Image 2024-04-15 at 10 19 41_5c4d53e9](https://github.com/Thirugnanaselvan/VLSI-LAB-EXP-3/assets/160720772/eea26a4b-f8de-4765-b9b4-4654d639ace6)
 
 
-**Result**
+**Result:**
 
-The 2-bit and 4-bit multiplier is stimulated and synthesized using Xilinx ISE.
+The 2-bit and 4-bit multiplier is stimulated and synthesized using Vivado 2023.12.
 
 
